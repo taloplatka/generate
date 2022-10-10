@@ -46,6 +46,21 @@ main {
     border-radius: 5px;
 }
 
+@media screen and (max-width: 600px) {
+    .variable-qunatity-form label {
+        font-size: 1rem;
+    }
+    .variable-qunatity-form .variables-quantity, .variable-qunatity-form .solution {
+        padding: 0.5em;
+        font-size: 0.9em;
+    }
+    .variable-qunatity-form .submit-button {
+        padding: 0.75rem;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
 .variable-qunatity-form label::before {
     content: '*';
     font-size: 1rempx;
@@ -67,4 +82,24 @@ main {
     border-radius: 2em;   
     font-size: larger;
 }
+
+.variable-qunatity-form .submit-button:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .variable-qunatity-form label {
+        font-size: 1.5rem;
+    }
+    .variable-qunatity-form .variables-quantity, .variable-qunatity-form .solution {
+        padding: 0.5em;
+        font-size: 0.9em;
+    }
+    .variable-qunatity-form .submit-button {
+        padding: 0.75rem;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
 
