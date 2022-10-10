@@ -21,17 +21,17 @@ variablesQuantitySubmitButton.addEventListener('click', () => {
     else {
         variablesQuantityAlert.style.display = 'none';
         
-        equation["variablesQuantity"] = variablesQuantity;
-        equation["solution"] = solution;
+        equation['variablesQuantity'] = variablesQuantity;
+        equation['solution'] = solution;
 
         for (let i = 1; i <= variablesQuantity; i++) {
             const container = document.createElement('div');
             const variableDisplay = document.createElement('span');
             variableDisplay.innerHTML = 'X' + '<sub>' + i + '</sub>';
             
-            const variablesValuesInput = document.createElement("input");
-            variablesValuesInput.type = "text";
-            variablesValuesInput.placeholder = "Possible Values";
+            const variablesValuesInput = document.createElement('input');
+            variablesValuesInput.type = 'text';
+            variablesValuesInput.placeholder = 'Possible Values';
 
 
             container.appendChild(variableDisplay);
@@ -39,6 +39,15 @@ variablesQuantitySubmitButton.addEventListener('click', () => {
             variablesValuesInputs.appendChild(container);
             
         };
+
+        const getAnswerButton = document.createElement('input');
+        getAnswerButton.type = 'button';   
+        getAnswerButton.value = 'Get Answer';
+        getAnswerButton.classList.add('get-answer-button');
+        variablesValuesInputs.appendChild(getAnswerButton)
+        getAnswerButton.addEventListener('click', () => {
+            alert('OK')
+        })
     };
 
 });

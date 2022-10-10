@@ -119,6 +119,7 @@ main {
     min-width: 70%;
     background-color: #03989e;
     border-radius: 10px;
+    margin-bottom: 30px;
 } 
 
 .variables-values-inputs div {
@@ -126,7 +127,9 @@ main {
     flex-direction: column;
     justify-content: space-around;
     padding: 1rem;
+    min-width: 70%;
 }
+
 
 
 .variables-values-inputs span {
@@ -142,3 +145,20 @@ main {
 }
 
 
+.variables-values-inputs .get-answer-button {
+    margin: 1rem auto;
+    outline: none;
+    border: none;
+    padding: 1em;
+    background-color: #FFF;
+    color: #080808;
+    min-width: 50%;
+    font-size: 1.2rem;
+    border-radius: 15px;
+}
+
+.variables-values-inputs .get-answer-button:hover {
+    cursor: pointer;
+    background-color: #c929bc;
+    color: #FFF;
+}
