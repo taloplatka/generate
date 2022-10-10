@@ -35,6 +35,12 @@ main {
     border-radius: 5px;
 }
 
+.variable-qunatity-form label::before {
+    content: '*';
+    font-size: 1rempx;
+    color: rgb(194, 16, 16);
+}
+
 
 
 .variable-qunatity-form .submit-button {
