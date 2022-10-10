@@ -47,8 +47,8 @@ main {
 }
 
 .variable-qunatity-form .variables-quantity:focus, .variable-qunatity-form .solution:focus {
-    border-color: #9ecaed;
-    box-shadow: 0 0 20px #9ecaed;
+    border: solid 1px #090a0ad5;
+    box-shadow: 0 0 15px #080808;
 }
 
 @media screen and (max-width: 600px) {
