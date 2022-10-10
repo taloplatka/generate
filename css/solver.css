@@ -1,0 +1,53 @@
+main {
+    margin-top: 2.5rem;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.variable-qunatity-form {
+    padding: 1.5rem;
+    background-color: #FFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    min-height: 200px;
+}
+
+.variable-qunatity-form label {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.variable-qunatity-form .label-for-solution {
+    margin-top: 1em;
+}
+
+.variable-qunatity-form .variables-quantity, .variable-qunatity-form .solution {
+    margin-top: 1em;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: 500;
+    outline: none;
+    border: solid 3px rgba(73, 10, 220, 0.644);
+    border-radius: 5px;
+}
+
+
+
+.variable-qunatity-form .submit-button {
+    margin-top: 3rem;
+    min-width: 70%;
+    max-width: 80%;
+    margin: 2rem auto;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    background-color: #03989e;
+    color: rgb(255, 255, 255);
+    border-radius: 2em;   
+    font-size: larger;
+}
+
