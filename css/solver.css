@@ -3,7 +3,7 @@ main {
     min-width: 100%;
     min-height: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .variable-qunatity-form {
@@ -14,6 +14,16 @@ main {
     flex-direction: column;
     color: rgb(0, 0, 0);
     min-height: 200px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.variable-qunatity-form .variables-quantity-alert {
+    display: none;
+    color: #c21010;
+    font-size: 1rem;
+    margin-top: 0.5em;
+    
 }
 
 .variable-qunatity-form label {
@@ -38,7 +48,7 @@ main {
 .variable-qunatity-form label::before {
     content: '*';
     font-size: 1rempx;
-    color: rgb(194, 16, 16);
+    color: #c21010;
 }
 
 
