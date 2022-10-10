@@ -1,0 +1,42 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121421;
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+
+.main-header {
+    height: 100px;  
+    display: grid;
+    place-items: center;
+}
+
+.main-header .main-nav ul {
+    min-width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-header .main-nav li {
+    list-style: none;
+}
+
+.main-header .main-nav li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1.4rem;
+    user-select: none;
+}
+
+.main-header .main-nav li a:hover {
+    color: bisque;
+}
