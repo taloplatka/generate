@@ -62,8 +62,8 @@ main {
 }
 
 .variable-qunatity-form label::before {
-    content: '*';
-    font-size: 1rempx;
+    content: '* ';
+    font-size: 1rem;
     color: #c21010;
 }
 
