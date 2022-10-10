@@ -31,7 +31,7 @@ variablesQuantitySubmitButton.addEventListener('click', () => {
             
             const variablesValuesInput = document.createElement("input");
             variablesValuesInput.type = "text";
-            variablesValuesInput.placeholder = "Value Of Variable";
+            variablesValuesInput.placeholder = "Possible Values";
 
 
             container.appendChild(variableDisplay);
