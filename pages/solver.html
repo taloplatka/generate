@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/solver.css">
     <link rel="icon" type="image/x-icon" href="../images/genly-logo.png">
     <title>Equation Solver</title>
 </head>
@@ -22,10 +23,13 @@
         </nav>
     </header>
     <main>
-        <div>
+        <form class="variable-qunatity-form">
             <label for="variablesQuantity">How Many Variables Are We Talking About?</label>
-            <input type="number" value="0" />
-        </div>
+            <input type="number" value="0" class="variables-quantity" id="variablesQuantity" />
+            <label for="solution" class="label-for-solution">What Is The Solution?</label>
+            <input type="number" value="" class="solution" id="solution" />
+            <input type="button" class="submit-button" value="OK" />
+        </form>
 
     </main>
 </body>
