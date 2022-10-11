@@ -8,9 +8,13 @@
     <link rel="stylesheet" href="../css/solver.css">
     <link rel="icon" type="image/x-icon" href="../images/genly-logo.png">
     <script src="../js/parser.js" defer></script>
+    <script src="../js/validator.js" defer></script>
     <script src="../math/basicOperations.js" defer></script>
     <script src="../math/genFunc.js" defer></script>
     <script src="../js/solver.js" defer></script>
+    <script src="../js/displayer.js" defer></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+
     <title>Equation Solver</title>
 </head>
 <body>
@@ -30,7 +34,7 @@
         <form class="variable-qunatity-form">
             <label for="variablesQuantity">How Many Variables Are We Talking About?</label>
             <input type="number" value="0" class="variables-quantity required" id="variablesQuantity" />
-            <p class="variables-quantity-alert" id="variablesQuantityAlert">There Must Be At Least One Variable!</p>
+            <p class="variables-quantity-alert" id="variablesQuantityAlert"></p>
 
             <label for="solution" class="label-for-solution">What Is The Solution?</label>
             <input type="number" value="0" class="solution required" id="solution"  />
